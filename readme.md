@@ -1,0 +1,3 @@
+Este Desafio corresponde al numero 5 del modulo JavaScript para la Web de bootcamp Desafio Latam, principalmente consiste en la realizacion de una lista de tareas que despliegue contenido dinamico, en el cual se refuerza el uso de metodos de arreglos, uso de objetos, entre otras cosas. 
+
+Para utilizar esta lista primero debe escribir su primera tarea en el input y darle al boton Agregar, luego podra ir indicando si completo una tarea con el boton "✓" o eliminar otra con el boton "x" y se actualizara la cantidad de tareas realizadas y las totales.
