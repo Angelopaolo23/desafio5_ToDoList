@@ -13,15 +13,23 @@
 <section class="container mw-100 mh-100 bg-info">   
     <h1 class="pt-3 text-light">Todo List</h1>
     <hr class="text-light"/>
-    <input id="input-tarea" class="rounded w-75 mt-2 border-danger" type="text" placeholder="Nueva tarea">
-    <button id="boton-agregar" class="bg-danger text-light rounded mb-2">Agregar</button>
+    <input id="input-tarea" class="rounded w-75 mt-2 border-danger py-2 h5" type="text" placeholder="Nueva tarea">
+    <button id="boton-agregar" class="bg-danger text-light rounded mb-3 px-4 py-2 h5">Agregar</button>
     
-    <span id="lista-tareas" class="d-flex justify-content-center">LISTA DE TAREAS</span>
+    <table class="text-light mb-2">
+        <thead>
+        <th class="h4 px-auto">Id</th>
+        <th class="h4 px-auto">Tarea</th>
+        <th class="h4 px-auto">Estado</th>
+        </thead>
+        <tbody id="lista-tareas"></tbody>
+        </table>
 
     <!-- CONTADOR DE TAREAS-->
     <div class="container d-inline flex-column">
-        <p class="h6 text-light">Total tareas: <span id="contador-total"></span></p>
-        <p class="h6 text-light">Tareas realizadas: <span id="contador-realizadas"></span></p>
+        <hr class="text-light"/>
+        <p class="h3 text-light">Total tareas: <span id="contador-total"></span></p>
+        <p class="h3 text-light">Tareas realizadas: <span id="contador-realizadas"></span></p>
     </div>
 </section>
 
